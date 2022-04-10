@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+footer {
+    font-family: georgia;
+    background: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+    padding: 40px 0 0;
+    letter-spacing: 0.06em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer h3 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 16px;
+    margin-bottom: 33px;
+}
+
+footer p {
+    color: #F1CDB3;
+    font-size: 20px;
+    min-height: 46px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F1CDB3;
+    font-size: 23px;
+}
+
+.box-contacts,
+.box-place,
+.box-image {
+    width: 300px;
+}
+
+.email {
+    background: url(../images/mail.svg) no-repeat left center;
+    padding-left: 60px;
+}
+
+.phone {
+    background: url(../images/icon-phone.svg) no-repeat left center;
+    padding-left: 60px;
+}
+
+.box-place p {
+    background: url(../images/icon-marker.svg) no-repeat left center;
+    padding-left: 42px;
+}

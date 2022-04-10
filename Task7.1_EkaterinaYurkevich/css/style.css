@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+header {
+    font-family: arial;
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #545454;
+}
+
+.logo a {
+    font-family: georgia;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+}
+
+.logo p {
+    font-size: 13px;
+    color: #292929;
+    letter-spacing: 0.1em;
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 35px;
+}
+
+.navigation {
+    font-size: 15px;
+    padding-bottom: 4px;
+}
+
+.navigation:hover {
+    color: #292929;
+}
+
+.active {
+    border-bottom: #F1CDB3 solid 3px;
+}
